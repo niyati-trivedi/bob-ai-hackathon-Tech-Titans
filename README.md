@@ -1,98 +1,136 @@
-# DEFCON-X
+# DEFCON-X: AI Defence Readiness & Threat Intelligence Copilot
 
-### AI Defence Readiness & Threat Intelligence Copilot
-
-From sensor anomaly to cyber threat to mission impact — one AI copilot for complete defence readiness.
+> AI-powered defence intelligence platform combining mission readiness assessment and threat intelligence correlation.
 
 ---
 
-## Overview
+## 👥 Team
 
-DEFCON-X is an AI-powered defence intelligence and mission-readiness platform designed to help defence teams understand threats, assess mission readiness, predict potential failures, and prioritize actions based on mission impact.
-
-The platform unifies physical asset health, threat intelligence, cyber indicators, mission context, and AI-driven analysis into one command environment.
-
-Instead of treating maintenance, cybersecurity, and mission planning as separate systems, DEFCON-X connects them to answer one central question:
-
-> **Is this mission ready, what could go wrong, why is it risky, what will happen next, and what should we prioritize?**
-
----
-
-## Key Capabilities
-
-### 1. Mission Readiness
-
-- Real-time mission readiness assessment
-- Asset health monitoring
-- Predictive maintenance insights
-- Mission risk evaluation
-- Readiness scoring
-- Failure prediction
-- Mission-impact analysis
-
-### 2. Threat Intelligence
-
-- Threat detection and correlation
-- Threat severity classification
-- Alert prioritization
-- Risk scoring
-- Cyber threat analysis
-- Anomaly detection
-- Threat-to-mission impact mapping
-
-### 3. AI Copilot
-
-The AI copilot analyzes mission, asset, and threat information to provide:
-
-- Risk explanations
-- Threat summaries
-- Recommended actions
-- Priority alerts
-- Predictive insights
-- Mission-readiness recommendations
+| Field | Value |
+|---|---|
+| **Team Name** | Tech Titans |
+| **Track** | AI |
+| **Team Lead** | Shreya — 25dcs106@charusat.edu.in |
+| **Members** | [Add team members] |
 
 ---
 
-## Unified Defence Intelligence
+## 🎯 Problem Statement
 
-DEFCON-X connects two major defence intelligence challenges:
-
-### Mission Readiness & Predictive Maintenance
-
-Monitors asset health and identifies potential failures before they affect mission readiness.
-
-### Threat Intelligence Correlation & Alert Prioritisation
-
-Correlates security indicators and prioritizes threats based on severity, likelihood, and potential mission impact.
-
-These capabilities are presented as **one unified platform**, rather than separate applications.
+Defence teams struggle with fragmented intelligence — treating maintenance, cybersecurity, and mission planning as separate systems. They need unified visibility into:
+- **Mission Readiness**: Asset health, predictive failures, readiness scoring
+- **Threat Intelligence**: Cyber threats, anomalies, alert prioritization
+- **Mission Impact**: How threats and failures affect operational capability
 
 ---
 
-## Architecture
+## 💡 Solution
 
-```text
-                   DEFCON-X
-                      │
-           ┌──────────┴──────────┐
-           │                     │
-    Mission Intelligence   Threat Intelligence
-           │                     │
-     Asset Health          Threat Detection
-     Maintenance           Alert Correlation
-     Readiness              Risk Scoring
-           │                     │
-           └──────────┬──────────┘
-                      │
-                AI COPILOT
-                      │
-           ┌──────────┴──────────┐
-           │                     │
-      Risk Analysis       Recommendations
-           │                     │
-           └──────────┬──────────┘
-                      │
-              Mission Impact
-                      │
-               Decision Support
+**DEFCON-X** unifies mission readiness and threat intelligence into one AI-powered command environment. Instead of managing separate dashboards, defence teams get one copilot that answers:
+
+> **Is this mission ready? What could go wrong? Why is it risky? What will happen next? What should we prioritize?**
+
+---
+
+## ✨ Key Features
+
+- **Real-time Mission Readiness Assessment**: Asset health monitoring + predictive maintenance
+- **Threat Intelligence Correlation**: Cyber threat detection + alert prioritization
+- **AI Copilot**: Risk explanations, threat summaries, recommended actions
+- **Mission-Impact Mapping**: Connects threats & failures to mission outcomes
+- **Unified Command Environment**: One dashboard for defence readiness
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|---|---|
+| **Frontend** | React, TanStack Start, TypeScript |
+| **UI Framework** | Radix UI, shadcn/ui, Tailwind CSS |
+| **Build** | Vite, TanStack Router |
+| **Languages** | TypeScript, React |
+| **Package Manager** | Bun |
+| **Other** | Recharts (data visualization), Zod (validation) |
+
+---
+
+## 📁 Repository Structure
+
 ```
+├── src/
+│   ├── components/       # React components
+│   ├── hooks/            # Custom React hooks
+│   ├── lib/              # Utility functions
+│   ├── routes/           # TanStack Start pages
+│   ├── router.tsx        # Router configuration
+│   ├── start.ts          # Start server config
+│   └── styles.css        # Tailwind CSS + theme
+├── public/               # Static assets
+├── docs/                 # Documentation
+├── demo/                 # Demo artifacts
+├── presentation/         # Slide deck
+├── package.json          # Dependencies
+├── tsconfig.json         # TypeScript config
+├── vite.config.ts        # Vite config
+└── submission.yaml       # Submission metadata
+```
+
+---
+
+## ⚡ How to Run
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/niyati-trivedi/bob-ai-hackathon-Tech-Titans.git
+cd bob-ai-hackathon-Tech-Titans
+
+# 2. Install dependencies
+bun install
+
+# 3. Run development server
+bun run dev
+
+# 4. Build for production
+bun run build
+```
+
+The app will be available at `http://localhost:5173`
+
+---
+
+## 🖥️ Demo
+
+| Artifact | Location |
+|---|---|
+| 📹 Demo Video | [demo/demo-video-link.txt](demo/demo-video-link.txt) |
+| 🌐 Live Demo | [demo/live-demo-url.txt](demo/live-demo-url.txt) |
+| 🖼️ Screenshots | [demo/screenshots/](demo/screenshots/) |
+| 📊 Presentation | [presentation/slides.pdf](presentation/) |
+
+---
+
+## ⚠️ Known Limitations
+
+- AI copilot features are scaffolded (ready for LLM integration via watsonx.ai)
+- Mock data used for demo purposes
+- Authentication layer not yet implemented
+- Database integration in progress
+
+---
+
+## 🏅 What We're Most Proud Of
+
+The **unified intelligence model** that connects mission readiness and threat intelligence in one copilot — something currently handled by separate point solutions in defence organizations.
+
+---
+
+## 📝 Additional Resources
+
+- [Architecture Documentation](docs/)
+- [Setup Guide](docs/setup-guide.md)
+- [Contributing Guidelines](CONTRIBUTING.md)
+
+---
+
+**Built with ❤️ for the IBM Bob AI Hackathon**
