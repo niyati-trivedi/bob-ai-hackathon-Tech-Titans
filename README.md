@@ -1,121 +1,98 @@
-# 🚀 [Your Project Title Here]
+# DEFCON-X
 
-> ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
+### AI Defence Readiness & Threat Intelligence Copilot
 
----
-
-## 👥 Team
-
-| Field | Value |
-|---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+From sensor anomaly to cyber threat to mission impact — one AI copilot for complete defence readiness.
 
 ---
 
-## 🎯 Problem Statement
+## Overview
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
+DEFCON-X is an AI-powered defence intelligence and mission-readiness platform designed to help defence teams understand threats, assess mission readiness, predict potential failures, and prioritize actions based on mission impact.
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+The platform unifies physical asset health, threat intelligence, cyber indicators, mission context, and AI-driven analysis into one command environment.
 
----
+Instead of treating maintenance, cybersecurity, and mission planning as separate systems, DEFCON-X connects them to answer one central question:
 
-## 💡 Solution
-
-> In 2–3 sentences: What did you build? How does it solve the problem above?
-
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+> **Is this mission ready, what could go wrong, why is it risky, what will happen next, and what should we prioritize?**
 
 ---
 
-## ✨ Key Features
+## Key Capabilities
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+### 1. Mission Readiness
+
+- Real-time mission readiness assessment
+- Asset health monitoring
+- Predictive maintenance insights
+- Mission risk evaluation
+- Readiness scoring
+- Failure prediction
+- Mission-impact analysis
+
+### 2. Threat Intelligence
+
+- Threat detection and correlation
+- Threat severity classification
+- Alert prioritization
+- Risk scoring
+- Cyber threat analysis
+- Anomaly detection
+- Threat-to-mission impact mapping
+
+### 3. AI Copilot
+
+The AI copilot analyzes mission, asset, and threat information to provide:
+
+- Risk explanations
+- Threat summaries
+- Recommended actions
+- Priority alerts
+- Predictive insights
+- Mission-readiness recommendations
 
 ---
 
-## 🛠️ Tech Stack
+## Unified Defence Intelligence
 
-| Category | Technologies |
-|---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+DEFCON-X connects two major defence intelligence challenges:
+
+### Mission Readiness & Predictive Maintenance
+
+Monitors asset health and identifies potential failures before they affect mission readiness.
+
+### Threat Intelligence Correlation & Alert Prioritisation
+
+Correlates security indicators and prioritizes threats based on severity, likelihood, and potential mission impact.
+
+These capabilities are presented as **one unified platform**, rather than separate applications.
 
 ---
 
-## 📁 Repository Structure
+## Architecture
 
+```text
+                   DEFCON-X
+                      │
+           ┌──────────┴──────────┐
+           │                     │
+    Mission Intelligence   Threat Intelligence
+           │                     │
+     Asset Health          Threat Detection
+     Maintenance           Alert Correlation
+     Readiness              Risk Scoring
+           │                     │
+           └──────────┬──────────┘
+                      │
+                AI COPILOT
+                      │
+           ┌──────────┴──────────┐
+           │                     │
+      Risk Analysis       Recommendations
+           │                     │
+           └──────────┬──────────┘
+                      │
+              Mission Impact
+                      │
+               Decision Support
 ```
-├── src/                  # All source code
-├── docs/                 # Written documentation
-│   ├── problem-statement.md
-│   ├── solution-overview.md
-│   ├── architecture.md
-│   └── setup-guide.md
-├── demo/                 # Demo artifacts
-│   ├── screenshots/      # App screenshots
-│   └── demo-video-link.txt  # Link to demo video
-├── presentation/         # Slide deck
-└── submission.yaml       # Structured submission metadata
-```
-
----
-
-## ⚡ How to Run
-
-> **Copy these exact steps from your [`docs/setup-guide.md`](docs/setup-guide.md)**
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/[your-repo].git
-cd [your-repo]
-
-# 2. Install dependencies
-[your install command here]
-
-# 3. Configure environment
-cp .env.example .env
-# Edit .env with your values
-
-# 4. Run the project
-[your run command here]
-```
-
----
-
-## 🖥️ Demo
-
-| Artifact | Link |
-|---|---|
-| 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
-| 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
-| 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
-| 📊 Presentation | [See presentation/slides.pdf](presentation/) |
-
----
-
-## ⚠️ Known Limitations
-
-> Be honest — judges appreciate transparency over overclaiming.
-
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
-
----
-
-## 🏅 What We're Most Proud Of
-
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
-
----
