@@ -1,11 +1,10 @@
-https://your-live-demo-url-here.com
+NOT DEPLOYED — run locally using docs/setup-guide.md
 
-Replace the URL above with a link to your live/deployed demo.
+To run the application locally:
+  1. Clone: git clone https://github.com/niyati-trivedi/bob-ai-hackathon-Tech-Titans.git
+  2. Install: cd bob-ai-hackathon-Tech-Titans && bun install
+  3. Run: bun run dev
+  4. Open: http://localhost:5173
 
-If your project is not deployed, delete this line and write:
-  NOT DEPLOYED — run locally using docs/setup-guide.md
-
-Accepted options:
-  - A public URL (Vercel, Render, IBM Cloud, Railway, etc.)
-  - A localhost URL with note that it requires local setup
-  - "NOT DEPLOYED" — judges will run it locally using your setup guide
+The application will be running at http://localhost:5173 with full demo data and UI components.
+See docs/setup-guide.md for complete instructions.
