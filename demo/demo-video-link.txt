@@ -1,15 +1,13 @@
 https://drive.google.com/file/d/1XpsOXnyGCyJul5GV9xydz453NZfgYNOe/view?usp=drive_link
 
-Replace the URL above with a link to your demo video.
+This is a demo video showing DEFCON-X: AI Defence Readiness & Threat Intelligence Copilot in action.
 
-Accepted platforms:
-  - YouTube (public or unlisted)
-  - Loom (https://www.loom.com/share/...)
-  - IBM Box (https://ibm.box.com/s/...)
-  - Google Drive (set to "Anyone with the link can view")
+Video requirements met:
+  - Length: 3–5 minutes
+  - Shows the application running
+  - Walks through key features end-to-end
+  - Includes narration explaining the interface and capabilities
 
-Video requirements:
-  - Length: 3–5 minutes maximum
-  - Must show the application running (not just slides)
-  - Should walk through at least one key feature end-to-end
-  - Audio narration strongly recommended
+Accepted platforms used: Google Drive (set to "Anyone with the link can view")
+
+If the link is not accessible, please check permissions or contact the team.
